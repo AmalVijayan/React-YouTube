@@ -1,0 +1,36 @@
+.sidebarOption{
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    color: rgb(75, 74, 74);
+    min-height: 25px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.sidebarOption.selected{
+    background-color: rgb(221, 221, 221);
+    font-weight: 800;
+}
+
+.sidebarOption.selected > .sidebarOption__icon{
+    color: red;
+}
+
+.sidebarOption:hover > p{
+    font-weight: 900;
+}
+
+.sidebarOption:hover > .sidebarOption__icon {
+    color: red;
+}
+
+.sidebarOption:hover{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.sidebarOption__icon{
+    height: 20px !important;
+    margin-right: 35px;
+}

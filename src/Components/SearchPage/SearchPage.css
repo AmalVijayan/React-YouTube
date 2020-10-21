@@ -1,0 +1,29 @@
+.searchPage{
+    flex: 0.83;
+    padding: 20px 20px;
+}
+
+.searchPage__filter{
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: xx-small !important;
+    margin-left: 5px;
+}
+
+.searchPage__filter > h4{
+    margin-left: 10px;
+}
+
+.searchPage > hr{
+    border: 0; 
+    height: 1px; 
+    background: rgb(211, 211, 211); 
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+.sarchPage__videoCards{
+    display: flex;
+    flex-wrap: wrap;
+}
